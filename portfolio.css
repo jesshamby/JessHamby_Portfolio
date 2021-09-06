@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 	font-family: Helvetica, "sans-sarif";
-	color: black;
 }
 
 /* Nav bar*/
@@ -14,24 +13,30 @@ nav {
 
 nav, footer {
 	margin: 10px 40px;
+	color: #212B23;
 }
 
 a {
 	text-decoration: none;
+	color: #240604;
 }
 
 a:hover, a:active {
-	color: red;
+	color: #EB6449;
 }
 
 .nav-links a{
 	padding: 0px 10px;
 }
 
+h1, h2 {
+	color: #EB6449;
+}
+
 /* Main */
 
 main{
-	background-color: lightpink;
+	background-color: #5B813E;
 	margin-left: 10%;
 }
 
@@ -69,9 +74,10 @@ p {
 /* About Me */
 
 .about {
-	background-color: grey;
+	background-color: #234D2E;
 	position: relative;
 	left: -40px;
+	color: #FFF7EE;
 }
 
 .about img {
@@ -88,7 +94,13 @@ p {
 
 .portfolio {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
+}
+
+.portfolio h2 {
+	width: 100%;
+	padding: 30px 0px 0px 60px;
 }
 
 .portfolio img {
@@ -97,13 +109,20 @@ p {
 	margin: 0px 30px 30px 60px;
 }
 
+.portfolio h2 {
+	margin: 0px;
+}
+
 h3 {
-	padding: 30px 0px 0px 60px;
+	padding: 0px 0px 0px 60px;
 	font-size: 30pt;
+	margin: 10px 0px;
+	color: #212B23;
 }
 
 .portfolio p {
-	margin: 156px 20px 20px 20px;
+	margin: 126px 20px 20px 20px;
+	color: #212B23;
 }
 
 .portfolio-links {
@@ -120,12 +139,15 @@ h4 {
 	margin: 15px 0px;
 }
 
+/* Footer */
+
 footer {
 	margin-bottom: 40px;
 }
 
 footer a {
 	margin-right: 50px;
+	font-size: 14pt;
 }
 
 
