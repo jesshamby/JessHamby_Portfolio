@@ -11,7 +11,7 @@ nav {
 	top: 0;
 	left: 0;
 	font-size: 18pt;
-	background-color: #5B813E;
+	background-color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
 	z-index: 10;
@@ -128,7 +128,7 @@ h3 {
 }
 
 .portfolio p {
-	margin: 126px 20px 20px 20px;
+	margin: 66px 20px 20px 20px;
 	color: #212B23;
 }
 
