@@ -1,21 +1,16 @@
 * {
 	box-sizing: border-box;
-	font-family: "sans-sarif";
+	font-family: Helvetica, "sans-sarif";
 	color: black;
 }
 
-body{
-	margin: 10px 40px;
-}
-
-main{
-	background-color: lightpink;
-}
+/* Nav bar*/
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	font-size: 18pt;
+	margin: 10px 40px;
 }
 
 a {
@@ -29,5 +24,29 @@ a:hover, a:active {
 .nav-links a{
 	padding: 0px 10px;
 }
+
+/* Main */
+
+main{
+	background-color: lightpink;
+	margin-left: 10%;
+}
+
+header {
+	display: flex;
+	padding: 50px 10px 30px 50px;
+}
+
+header img {
+	width: 434px;
+	height: 550px;
+}
+
+h1{
+	padding: 30px 0px 0 60px;
+	font-size: 60pt;
+	font-weight: normal;
+}
+
 
 
