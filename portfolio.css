@@ -24,7 +24,7 @@ nav, footer {
 
 a {
 	text-decoration: none;
-	color: #240604;
+	color: #212B23;;
 }
 
 a:hover, a:active {
@@ -43,6 +43,7 @@ h1, h2 {
 
 main{
 	background-color: #5B813E;
+	padding-top: 60px;
 	margin-left: 10%;
 }
 
@@ -141,7 +142,7 @@ h3 {
 }
 
 h4 {
-	font-size: 20pt;
+	font-size: 30pt;
 	margin: 15px 0px;
 }
 
@@ -153,7 +154,13 @@ footer {
 
 footer a {
 	margin-right: 50px;
-	font-size: 14pt;
+	font-size: 18pt;
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
 }
 
 
