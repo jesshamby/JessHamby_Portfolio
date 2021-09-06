@@ -6,13 +6,19 @@
 /* Nav bar*/
 
 nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	font-size: 18pt;
+	background-color: #5B813E;
 	display: flex;
 	justify-content: space-between;
-	font-size: 18pt;
+	z-index: 10;
 }
 
 nav, footer {
-	margin: 10px 40px;
+	padding: 10px 40px;
 	color: #212B23;
 }
 
@@ -26,7 +32,7 @@ a:hover, a:active {
 }
 
 .nav-links a{
-	padding: 0px 10px;
+	padding: 0px 10px;	
 }
 
 h1, h2 {
