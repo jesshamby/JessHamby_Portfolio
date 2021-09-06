@@ -94,6 +94,12 @@ p {
 	margin: 30px 30px 30px 30px;
 }
 
+.about-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .about-text {
 	margin: 30px 30px 30px 30px;
 }
@@ -219,7 +225,7 @@ footer img{
 	}
 	
 	.about img {
-		max-width: 350px;
+		max-width: 300px;
 		height: auto;
 	}
 	
@@ -245,6 +251,59 @@ footer img{
 		height: 20px;
 	}
 }
+
+@media screen and (max-width: 800px){
+	
+	h1 {
+		font-size: 50pt;
+	}
+	
+	p, .portfolio-links {
+		font-size: 14pt;
+	}
+	
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.about-text{
+		margin-bottom: 0px;
+	}
+	
+	.about img {
+		max-width: 200px;
+		height: auto;
+		
+	}
+	
+	h2, h4 {
+		font-size: 30pt;
+	}
+	
+	.portfolio {
+		margin-bottom: 10px;
+	}
+	
+	.portfolio-img {
+		max-width: 220px;
+		height: 220px;
+	}
+	
+	h3 {
+		font-size: 20pt;
+	}
+	
+	footer a {
+		font-size: 14pt;
+	}
+	
+	footer img {
+		width: 20px;
+		height: 20px;
+	}
+}
+
 
 
 
