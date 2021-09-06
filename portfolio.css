@@ -1,3 +1,21 @@
 * {
 	box-sizing: border-box;
+	font-family: "sans-sarif";
+	color: black;
 }
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: red;
+}
+
+
