@@ -4,6 +4,14 @@
 	color: black;
 }
 
+body{
+	margin: 10px 40px;
+}
+
+main{
+	background-color: lightpink;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -16,6 +24,10 @@ a {
 
 a:hover, a:active {
 	color: red;
+}
+
+.nav-links a{
+	padding: 0px 10px;
 }
 
 
