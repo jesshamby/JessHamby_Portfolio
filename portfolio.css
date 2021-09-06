@@ -48,5 +48,35 @@ h1{
 	font-weight: normal;
 }
 
+section {
+	display: flex;
+}
+
+h2 {
+	font-size: 40pt;
+	font-weight: normal;
+}
+
+p {
+	font-size: 18pt;
+}
+
+/* About Me */
+
+.about {
+	background-color: grey;
+	position: relative;
+	left: -40px;
+}
+
+.about img {
+	width: 434.47px;
+	height: 434.47px;
+	margin: 30px 30px 30px 30px;
+}
+
+.about-text {
+	margin: 30px 30px 30px 30px;
+}
 
 
