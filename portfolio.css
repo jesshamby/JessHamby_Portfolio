@@ -44,7 +44,8 @@ h1, h2 {
 main{
 	background-color: #5B813E;
 	padding-top: 60px;
-	margin-left: 10%;
+	margin-left: 20%;
+	width: 100%;
 }
 
 header {
@@ -166,6 +167,48 @@ footer img{
 	width: 30px;
 	height: 30px;
 	margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px){
+	header img {
+		width: 350px;
+		height: 440px;
+	}
+	
+	h1 {
+		font-size: 40pt;
+	}
+	
+	p, .portfolio-links {
+		font-size: 14pt;
+	}
+	
+	.about img {
+		width: 350px;
+		height: 350px;
+	}
+	
+	h2, h4 {
+		font-size: 30pt;
+	}
+	
+	.portfolio-img {
+		width: 320px;
+		height: 240px;
+	}
+	
+	h3 {
+		font-size: 20pt;
+	}
+	
+	footer a {
+		font-size: 14pt;
+	}
+	
+	footer img {
+		width: 20px;
+		height: 20px;
+	}
 }
 
 
