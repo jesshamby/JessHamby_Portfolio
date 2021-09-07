@@ -307,3 +307,95 @@ footer img{
 		height: 20px;
 	}
 }
+
+@media screen and (max-width: 500px){
+	
+	nav, footer {
+		padding: 10px 10px;
+	}
+	
+	nav a {
+		font-size: 14pt;
+	}
+	
+	h1 {
+		font-size: 30pt;
+		padding: 10px 0 0 20px;
+	}
+	
+	header img {
+		max-width: 100px;
+		max-height: auto;
+	}
+	
+	p, .portfolio-links {
+		font-size: 14pt;
+	}
+	
+	p {
+		margin: 0;
+	}
+	
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.about-text{
+		margin-bottom: 0px;
+	}
+	
+	.about img {
+		max-width: 150px;
+		height: auto;
+		
+	}
+	
+	h2, h4 {
+		font-size: 25pt;
+	}
+	
+	.portfolio {
+		padding-bottom: 10px;
+	}
+	
+	.portfolio h2, h3 {
+		padding-left: 20px;
+	}
+	
+	.portfolio-img {
+		max-width: 150px;
+		height: 150px;
+		margin-left: 20px;
+		margin-bottom: 0px;
+	}
+	
+	.portfolio p {
+		margin-top: 20px;
+	}
+	
+	
+	.portfolio section {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	h3 {
+		font-size: 18pt;
+	}
+	
+	footer a {
+		font-size: 12pt;
+	}
+	
+	footer img {
+		width: 20px;
+		height: 20px;
+	}
+	
+	footer div {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 10px;
+	}
+}
