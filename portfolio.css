@@ -3,6 +3,10 @@
 	font-family: Helvetica, "sans-sarif";
 }
 
+h1, h2, h3, h4{
+	font-weight: normal;
+}
+
 /* Nav bar*/
 
 nav {
@@ -10,7 +14,6 @@ nav {
 	width: 100%;
 	top: 0;
 	left: 0;
-	font-size: 1.8vw;
 	background-color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
@@ -24,7 +27,8 @@ nav, footer {
 
 a {
 	text-decoration: none;
-	color: #212B23;;
+	color: #212B23;
+	font-size: 1.8vw;
 }
 
 .nav-links a{
@@ -52,10 +56,6 @@ header {
 header img {
 	max-width: 35vw;
 	height: auto;
-}
-
-h1, h2, h3, h4{
-	font-weight: normal;
 }
 
 h1{
@@ -151,7 +151,6 @@ h3, .portfolio-links a{
 
 .portfolio-links a {
 	margin: 0 2vw;
-	font-size: 1.8vw;
 }
 
 h4 {
@@ -166,8 +165,8 @@ footer {
 }
 
 footer a {
-	margin-right: 5vw;
-	font-size: 1.8vw;
+	margin-left: 2vw;
+	font-size: 1.6vw;
 }
 
 /* Font Awesome Icons & hovers */
