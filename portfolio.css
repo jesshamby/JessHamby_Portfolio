@@ -262,6 +262,10 @@ footer img{
 		font-size: 14pt;
 	}
 	
+	p {
+		margin: 0;
+	}
+	
 	.about {
 		display: flex;
 		flex-direction: column;
@@ -282,7 +286,7 @@ footer img{
 	}
 	
 	.portfolio {
-		margin-bottom: 10px;
+		padding-bottom: 10px;
 	}
 	
 	.portfolio-img {
@@ -303,7 +307,3 @@ footer img{
 		height: 20px;
 	}
 }
-
-
-
-
