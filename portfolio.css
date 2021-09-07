@@ -122,11 +122,14 @@ p {
 	margin: 0 3vw 3vw 6vw;
 }
 
-h3 {
+.portfolio h3 {
 	padding-left: 6vw;
-	font-size: 3vw;
 	margin: 1vw 0;
 	white-space: nowrap;
+}
+
+h3 {
+	font-size: 3vw;
 }
 
 h3, .portfolio-links a{
@@ -153,15 +156,15 @@ h3, .portfolio-links a{
 	margin: 0 2vw;
 }
 
-h4 {
-	font-size: 3vw;
-	margin: 1.5vw 0;
-}
-
 /* Footer */
 
 footer {
 	margin-bottom: 4vw;
+}
+
+footer h3 {
+	color: #212B23;
+	margin: 1.5vw 0;
 }
 
 footer a {
@@ -197,8 +200,16 @@ a:hover {
 
 @media screen and (max-width: 1000px){
 
-	p, footer a, .portfolio a, nav {
+	p, footer a, .portfolio a, nav a {
 		font-size: 3vw;
+	}
+	
+	h2 {
+		font-size: 5vw;
+	}
+	
+	h3 {
+		font-size: 4vw;
 	}
 
 	.portfolio section {
