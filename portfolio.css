@@ -111,7 +111,6 @@ p {
 
 .portfolio {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	padding: 1vw 0;
 }
