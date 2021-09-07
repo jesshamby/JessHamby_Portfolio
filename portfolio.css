@@ -175,6 +175,31 @@ footer img{
 	margin-top: 5px;
 }
 
+.fa-github:before {
+	content: "\f09b";
+}
+
+.fa-linkedin:before {
+	content: "\f08c";
+}
+
+.fa-envelope:before {
+	content: "\f0e0";
+}
+
+.fa-external-link:before {
+	content: "\f08e";
+} 
+
+.fab {
+	font-family: "Font Awesome 5 Brands";
+}
+
+
+
+
+
+
 @media screen and (max-width: 1300px){
 	
 	h1 {
