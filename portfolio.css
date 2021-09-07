@@ -50,7 +50,7 @@ main{
 
 header {
 	display: flex;
-	padding: 50px 10px 30px 50px;
+	padding: 40px 10px 30px 50px;
 }
 
 header img {
@@ -226,7 +226,6 @@ footer img{
 	
 	.about img {
 		max-width: 300px;
-		height: auto;
 	}
 	
 	h2, h4 {
@@ -253,15 +252,7 @@ footer img{
 }
 
 @media screen and (max-width: 800px){
-	
-	h1 {
-		font-size: 50pt;
-	}
-	
-	p, .portfolio-links {
-		font-size: 14pt;
-	}
-	
+
 	p {
 		margin: 0;
 	}
@@ -277,12 +268,7 @@ footer img{
 	
 	.about img {
 		max-width: 200px;
-		height: auto;
-		
-	}
-	
-	h2, h4 {
-		font-size: 30pt;
+		height: auto;	
 	}
 	
 	.portfolio {
@@ -294,18 +280,6 @@ footer img{
 		height: 220px;
 	}
 	
-	h3 {
-		font-size: 20pt;
-	}
-	
-	footer a {
-		font-size: 14pt;
-	}
-	
-	footer img {
-		width: 20px;
-		height: 20px;
-	}
 }
 
 @media screen and (max-width: 500px){
@@ -315,7 +289,7 @@ footer img{
 	}
 	
 	nav a {
-		font-size: 14pt;
+		font-size: 12pt;
 	}
 	
 	h1 {
@@ -325,38 +299,20 @@ footer img{
 	
 	header img {
 		max-width: 100px;
-		max-height: auto;
+		height: auto;
 	}
 	
 	p, .portfolio-links {
 		font-size: 14pt;
 	}
 	
-	p {
-		margin: 0;
-	}
-	
-	.about {
-		display: flex;
-		flex-direction: column;
-	}
-	
-	.about-text{
-		margin-bottom: 0px;
-	}
-	
 	.about img {
 		max-width: 150px;
 		height: auto;
-		
 	}
 	
 	h2, h4 {
 		font-size: 25pt;
-	}
-	
-	.portfolio {
-		padding-bottom: 10px;
 	}
 	
 	.portfolio h2, h3 {
@@ -397,5 +353,11 @@ footer img{
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	h1 {
+		font-size: 20pt;
 	}
 }
