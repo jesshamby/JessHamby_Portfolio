@@ -1,0 +1,247 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, "sans-sarif";
+}
+
+h1, h2, h3, h4{
+	font-weight: normal;
+}
+
+/* Nav bar*/
+
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	z-index: 10;
+}
+
+nav, footer {
+	padding: 1vw 4vw;
+	color: #212B23;
+}
+
+a {
+	text-decoration: none;
+	color: #212B23;
+	font-size: 1.8vw;
+}
+
+.nav-links a{
+	padding: 0 1vw;	
+}
+
+h1, h2 {
+	color: #EB6449;
+}
+
+/* Main */
+
+main{
+	background-color: #5B813E;
+	padding-top: 6vw;
+	margin-left: 20%;
+	width: 80%;
+}
+
+header {
+	display: flex;
+	padding: 4vw 1vw 3vw 5vw;
+}
+
+header img {
+	max-width: 35vw;
+	height: auto;
+}
+
+h1{
+	padding: 3vw 0 0 6vw;
+	font-size: 7vw;
+	margin: 0;
+}
+
+section {
+	display: flex;
+}
+
+h2 {
+	font-size: 4vw;
+	padding: 4vw 0 0 6vw;
+	margin: 0;
+}
+
+p {
+	font-size: 1.8vw;
+}
+
+/* About Me */
+
+.about {
+	background-color: #234D2E;
+	position: relative;
+	left: -4vw;
+	color: #FFF7EE;
+}
+
+.about h2 {
+	padding-left: 0;
+}
+
+.about img {
+	width: 35vw;
+	height: 35vw;
+	margin: 3vw;
+}
+
+.about-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-text {
+	margin: 0 3vw;
+}
+
+/* Portfolio */
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	padding: 1vw 0;
+}
+
+.portfolio-img {
+	max-width: 15vw;
+	height: auto;
+	margin: 0 3vw 3vw 6vw;
+}
+
+.portfolio h3 {
+	padding-left: 6vw;
+	margin: 1vw 0;
+	white-space: nowrap;
+}
+
+h3 {
+	font-size: 3vw;
+}
+
+h3, .portfolio-links a{
+	color: #FFF7EE;
+}
+
+.portfolio p {
+	margin: 5vw 2vw 0 2vw;
+	color: #212B23;
+}
+
+.portfolio-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 3vw;
+}
+
+.portfolio-links {
+	text-align: right;
+}
+
+.portfolio-links a {
+	margin: 0 2vw;
+}
+
+/* Footer */
+
+footer {
+	margin-bottom: 4vw;
+}
+
+footer h3 {
+	color: #212B23;
+	margin: 1.5vw 0;
+}
+
+footer a {
+	margin-left: 2vw;
+	font-size: 1.6vw;
+}
+
+/* Font Awesome Icons & hovers */
+
+.fa-github:before {
+	content: "\f09b";
+}
+
+.fa-linkedin:before {
+	content: "\f08c";
+}
+
+.fa-envelope:before {
+	content: "\f0e0";
+}
+
+.fa-external-link:before {
+	content: "\f08e";
+} 
+
+.fab {
+	font-family: "Font Awesome 5 Brands";
+}
+
+a:hover {
+	color: #EB6449;
+}
+
+@media screen and (max-width: 1000px){
+
+	p, footer a, .portfolio a, nav a {
+		font-size: 3vw;
+	}
+	
+	h2 {
+		font-size: 5vw;
+	}
+	
+	h3 {
+		font-size: 4vw;
+	}
+
+	.portfolio section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.portfolio p {
+		margin: 0 0 1vw 6vw;
+	}
+	
+	.portfolio-img {
+		max-width: 20vw;
+	}
+}
+
+@media screen and (max-width: 800px){
+	
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 500px){
+	
+	.portfolio p {
+		margin-top: 2vw;
+	}
+
+	footer div {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 1vw;
+	}
+}
