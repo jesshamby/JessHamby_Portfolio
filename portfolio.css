@@ -55,7 +55,6 @@ header {
 
 header img {
 	max-width: 35vw;
-	height: auto;
 }
 
 h1{
@@ -91,16 +90,16 @@ p {
 	padding-left: 0;
 }
 
-.about img {
-	width: 35vw;
-	height: 35vw;
-	margin: 3vw;
-}
-
 .about-img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.about img {
+	width: 35vw;
+	height: 35vw;
+	margin: 3vw;
 }
 
 .about-text {
@@ -117,7 +116,6 @@ p {
 
 .portfolio-img {
 	max-width: 15vw;
-	height: auto;
 	margin: 0 3vw 3vw 6vw;
 }
 
@@ -136,7 +134,7 @@ h3, .portfolio-links a{
 }
 
 .portfolio p {
-	margin: 5vw 2vw 0 2vw;
+	margin: 5vw 2vw 1vw 2vw;
 	color: #212B23;
 }
 
@@ -197,10 +195,10 @@ a:hover {
 	color: #EB6449;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
 
 	p, footer a, .portfolio a, nav a {
-		font-size: 3vw;
+		font-size: 2.7vw;
 	}
 	
 	h2 {
@@ -225,7 +223,11 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
+	
+	p, footer a, .portfolio a, nav a {
+		font-size: 3vw;
+	}
 	
 	.about {
 		display: flex;
@@ -233,7 +235,27 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
+	
+	nav, footer {
+		padding: 1vw 2vw;
+	}
+	
+	p, footer a, .portfolio a, nav a {
+		font-size: 5vw;
+	}
+	
+	h1 {
+		font-size: 8vw;
+	}
+	
+	h2 {
+		font-size: 7vw;
+	}
+	
+	h3 {
+		font-size: 6vw;
+	}
 	
 	.portfolio p {
 		margin-top: 2vw;
