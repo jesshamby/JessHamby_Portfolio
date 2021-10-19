@@ -11,6 +11,31 @@ body {
   background-color: #FFF7EE;
 }
 
+/* Font Awesome Icons & hovers */
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+a:hover {
+  color: #EB6449;
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -150,31 +175,6 @@ footer h3 {
 footer a {
   margin-left: 2vw;
   font-size: 1.6vw;
-}
-
-/* Font Awesome Icons & hovers */
-.fa-github:before {
-  content: "\f09b";
-}
-
-.fa-linkedin:before {
-  content: "\f08c";
-}
-
-.fa-envelope:before {
-  content: "\f0e0";
-}
-
-.fa-external-link:before {
-  content: "\f08e";
-}
-
-.fab {
-  font-family: "Font Awesome 5 Brands";
-}
-
-a:hover {
-  color: #EB6449;
 }
 
 @media screen and (max-width: 1200px) {
