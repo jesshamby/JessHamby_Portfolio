@@ -1,0 +1,106 @@
+@import "imports/variables";
+@import "imports/mixins";
+@import "imports/generalProp";
+@import "imports/nav";
+@import "imports/main";
+@import "imports/aboutSection";
+@import "imports/portfolioSection";
+@import "imports/footer";
+
+/* Font Awesome Icons & hovers */
+
+.fa-github:before {
+	content: "\f09b";
+}
+
+.fa-linkedin:before {
+	content: "\f08c";
+}
+
+.fa-envelope:before {
+	content: "\f0e0";
+}
+
+.fa-external-link:before {
+	content: "\f08e";
+} 
+
+.fab {
+	font-family: "Font Awesome 5 Brands";
+}
+
+a:hover {
+	color: $color-pink;
+}
+
+@media screen and (max-width: 1200px){
+
+	p, footer a, .portfolio a, nav a {
+		font-size: 2.7vw;
+	}
+	
+	h2 {
+		font-size: 5vw;
+	}
+	
+	h3 {
+		font-size: 4vw;
+	}
+
+	.portfolio {
+		section {
+			@include flex-Col();
+		}
+		p {
+			margin: 0 0 1vw 6vw;
+		}
+	}
+
+	.portfolio-img {
+		max-width: 20vw;
+	}
+}
+
+@media screen and (max-width: 900px){
+	
+	p, footer a, .portfolio a, nav a {
+		font-size: 3vw;
+	}
+	
+	.about {
+		@include flex-Col();
+	}
+}
+
+@media screen and (max-width: 700px){
+	
+	nav, footer {
+		padding: 1vw 2vw;
+	}
+	
+	p, footer a, .portfolio a, nav a {
+		font-size: 5vw;
+	}
+	
+	h1 {
+		font-size: 8vw;
+	}
+	
+	h2 {
+		font-size: 7vw;
+	}
+	
+	h3 {
+		font-size: 6vw;
+	}
+	
+	.portfolio p {
+		margin-top: 2vw;
+	}
+
+	footer div {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 1vw;
+	}
+}
