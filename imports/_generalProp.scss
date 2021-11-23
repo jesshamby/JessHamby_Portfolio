@@ -10,3 +10,29 @@ h1, h2, h3, h4{
 body {
   background-color: $color-white;
 }
+
+/* Font Awesome Icons & hovers */
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+a:hover {
+  color: $color-pink;
+}
