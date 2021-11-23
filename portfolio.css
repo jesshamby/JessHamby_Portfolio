@@ -139,7 +139,7 @@ p {
 }
 
 .portfolio-img {
-  max-width: 15vw;
+  max-width: 30vw;
   margin: 0 3vw 3vw 6vw;
 }
 
@@ -199,7 +199,7 @@ footer a {
   }
 
   .portfolio-img {
-    max-width: 20vw;
+    max-width: 15vw;
   }
 }
 @media screen and (max-width: 900px) {
