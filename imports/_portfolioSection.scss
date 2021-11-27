@@ -2,7 +2,7 @@
   @include flex-Col();
   padding: 1vw 0;
   h3 {
-    padding-left: 6vw;
+    padding-left: 4vw;
     margin: 1vw 0;
     white-space: nowrap;
   }
@@ -13,16 +13,21 @@
 }
 
 .portfolio-img {
-  max-width: 15vw;
-  margin: 0 3vw 3vw 6vw;
+  max-width: 40vw;
+  margin: 0 2vw 2vw 4vw;
 }
 
 h3 {
   font-size: 3vw;
 }
 
-h3, .portfolio-links a{
+h3,
+.portfolio-links a{
   color: $color-white;
+}
+
+.portfolio-links a:hover {
+  color: $color-pink;
 }
 
 .portfolio-text {
@@ -33,7 +38,6 @@ h3, .portfolio-links a{
 
 .portfolio-links {
   text-align: right;
-
   a {
     margin: 0 2vw;
   }
