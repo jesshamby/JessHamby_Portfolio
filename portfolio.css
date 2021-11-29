@@ -43,6 +43,10 @@ a:hover {
   color: #e63946;
 }
 
+img {
+  border: 1vw #e63946 solid;
+}
+
 nav {
   position: fixed;
   width: 100%;
